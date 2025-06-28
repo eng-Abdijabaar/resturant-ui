@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Resturant Web</title>
+</head>
+
+<body>
+    <!-- hero section -->
+    <section class="hero-section">
+        <!-- navBar -->
+        <div class="pt-5">
+            <div class="container d-flex justify-content-between align-items-center px-5 bg-white-51 radius">
+                <!-- Logo section -->
+                <div class="fs-1 fw-bold logo">
+                    <h1>Somali<span class="color">Mastery</span></h1>
+                </div>
+                <div class="d-flex align-items-center gap-lg-5">
+                    <!-- Menu -->
+                    <div class="float-sm-start d-flex gap-3 fw-semibold">
+                        <a href="" class="text-decoration-none text-dark fw-semibold fs-4 nave-hover">Home</a>
+                        <a href="" class="text-decoration-none text-dark fw-semibold fs-4 nave-hover">Food</a>
+                        <a href="" class="text-decoration-none text-dark fw-semibold fs-4 nave-hover">Abou</a>
+                        <a href="" class="text-decoration-none text-dark fw-semibold fs-4 nave-hover">Contuct</a>
+                    </div>
+                    <!-- login/register button -->
+                    <div>
+                        <button
+                            class="button bg-white border-0 fw-semibold fs-5 text-dark px-3 py-2 rounded-3">Login/Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- hero content -->
+        <div class="container d-flex align-items-center justify-content-around gap-lg-4 mt-lg-5 px-lg-5">
+            <!-- Hero Info -->
+            <div>
+                <p class="fw-bold color ">you can have</p>
+                <p class="fs-2 fw-bold">Delicious Pasta</p>
+                <p class="fs-1 fw-bolder">on<span class="color"> your table</span> .</p>
+                <div>
+                    <p class="line-clamp text-muted">Lorem, ipsum dolor sit
+                        amet consectetur adipisicing elit. Quia et dolore vero,
+                        alias quae minima non soluta corporis? Delectus quas aliquid
+                        necessitatibus iure ut inventore molestias, rem obcaecati harum iste.</p>
+                </div>
+                <div class="d-flex align-items-center gap-5">
+                    <button onclick={iner} class="button border-0 btn-bg-color p-2 fw-semibold">Place an Order</button>
+                    <button id="inter" class="button btn-border-color p-2 fw-semibold">All Menu</button>
+                </div>
+
+            </div>
+
+            <!-- hero img -->
+            <div class="spinner">
+                <img src="/images/hero-img.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
